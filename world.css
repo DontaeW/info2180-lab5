@@ -1,1 +1,93 @@
-/* Add your own styles */
+html, body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    background-color: #E0F7FF; 
+    color: #333;
+}
+
+.copyrightcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.resultscontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #0056A3; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#searchbuttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#controls {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 400px;
+    padding: 0;
+}
+
+#country {
+    width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#controls button {
+    background-color: #A30000; 
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px; 
+}
+
+#controls button:hover {
+    background-color: #FF5733; 
+}
+
+main {
+    padding: 20px 0;
+}
+#controlsform {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    #country {
+        width: 100%;
+    }
+}

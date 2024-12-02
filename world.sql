@@ -26,6 +26,7 @@ USE world;
 -- Table structure for table `cities`
 --
 
+
 DROP TABLE IF EXISTS `cities`;
 CREATE TABLE `cities` (
   `id` int(11) NOT NULL auto_increment,
